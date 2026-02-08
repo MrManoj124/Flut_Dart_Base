@@ -23,3 +23,6 @@ var temperature = 36.5; // Dart infers this as a double
 final bookingId = 'CAB123'; // Can be set once, but can be determined at runtime
 const pi = 3.14159; // Must be a compile-time constant
 
+//🔑 Rule for Flutter
+//Use const for UI widgets
+//Use final for API / Firebase data
