@@ -4,3 +4,6 @@
 void main() {
   print('Welcome to Dart!');
 }
+
+//Basic Types in Dart
+//String, int, double, bool, List, Map, Set, etc.
