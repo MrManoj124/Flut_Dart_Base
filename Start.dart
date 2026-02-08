@@ -69,3 +69,9 @@ x ~/= 2; // x is now 12 (integer division)
 
 
 //Logical Operators
+bool isSunny = true;
+bool isWeekend = false;
+print(isSunny && isWeekend); // false
+print(isSunny || isWeekend); // true
+print(!isSunny); // false
+
