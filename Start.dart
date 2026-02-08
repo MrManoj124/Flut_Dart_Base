@@ -46,3 +46,8 @@ print('Driver Name: ${driverName!}'); // This will throw an error if driverName 
 
 //Better to use null-aware operators
 print('Driver Name: ${driverName ?? "No Driver Assigned"}'); // Provides a default value if null
+//This is a safer way to handle null values without risking runtime errors
+
+//Dart is a powerful language with many features that make it great for building Flutter apps. Understanding these basics will help you get started on your Flutter journey!
+
+//Dart Operators
