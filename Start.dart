@@ -18,3 +18,8 @@ var city = 'Binland'; // Dart infers this as a String
 var score = 95; // Dart infers this as an int
 var isRaining = false; // Dart infers this as a bool
 var temperature = 36.5; // Dart infers this as a double
+
+//final vs const
+final bookingId = 'CAB123'; // Can be set once, but can be determined at runtime
+const pi = 3.14159; // Must be a compile-time constant
+
