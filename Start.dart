@@ -135,3 +135,10 @@ String multiLineStringExample = '''This is a multi-line string.
 It can span multiple lines without needing concatenation.''';
 
 //Dart also has string methods for manipulation
+String example = "Dart is great!";
+print(example.toUpperCase()); // Output: DART IS GREAT!
+print(example.toLowerCase()); // Output: dart is great!
+print(example.length); // Output: 15
+print(example.contains('great')); // Output: true
+
+
