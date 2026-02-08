@@ -26,3 +26,5 @@ const pi = 3.14159; // Must be a compile-time constant
 //🔑 Rule for Flutter
 //Use const for UI widgets
 //Use final for API / Firebase data
+
+//Null Safety in Dart
