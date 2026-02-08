@@ -96,3 +96,8 @@ print("Driver $driver is $km km away");
 
 //Better than concatenation //print("Driver " + driver);
 
+//Dart also supports multi-line strings using triple quotes
+String multiLineString = '''
+This is a multi-line string.
+It can span multiple lines without needing concatenation.
+''';
