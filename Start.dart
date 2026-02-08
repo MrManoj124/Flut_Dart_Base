@@ -134,5 +134,4 @@ String rawStringExample = r'This is a raw string. Backslashes like \n are not in
 String multiLineStringExample = '''This is a multi-line string.
 It can span multiple lines without needing concatenation.''';
 
-
 //Dart also has string methods for manipulation
