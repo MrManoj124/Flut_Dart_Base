@@ -75,3 +75,5 @@ print(isSunny && isWeekend); // false
 print(isSunny || isWeekend); // true
 print(!isSunny); // false
 
+
+//Ternary Operator
