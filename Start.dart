@@ -82,3 +82,9 @@ String result = score >= 60 ? 'Pass' : 'Fail';
 print(result); // Output: Pass
 
 
+//Type Test Operators
+var value = 'Hello';
+print(value is String); // true
+print(value is int); // false
+
+
