@@ -58,3 +58,11 @@ int b = 3;
 print(a + b);
 print(a > b);
 print(a == b);
+
+
+//Assignment Operators
+int x = 5;
+x += 3; // x is now 8
+x -= 2; // x is now 6   
+x *= 4; // x is now 24
+x ~/= 2; // x is now 12 (integer division)
