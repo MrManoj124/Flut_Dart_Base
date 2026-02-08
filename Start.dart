@@ -50,4 +50,11 @@ print('Driver Name: ${driverName ?? "No Driver Assigned"}'); // Provides a defau
 
 //Dart is a powerful language with many features that make it great for building Flutter apps. Understanding these basics will help you get started on your Flutter journey!
 
+
 //Dart Operators
+int a = 10;
+int b = 3;
+
+print(a + b);
+print(a > b);
+print(a == b);
