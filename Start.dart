@@ -101,3 +101,9 @@ String multiLineString = '''
 This is a multi-line string.
 It can span multiple lines without needing concatenation.
 ''';
+
+
+//Dart also has raw strings, which treat backslashes as literal characters
+String rawString = r'This is a raw string. Backslashes like \n are not
+interpreted.';
+
