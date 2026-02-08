@@ -88,3 +88,11 @@ print(value is String); // true
 print(value is int); // false
 
 
+//String Interpolation
+String driver = "Kamal";
+int km = 12;
+
+print("Driver $driver is $km km away");
+
+//Better than concatenation //print("Driver " + driver);
+
