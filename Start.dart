@@ -39,3 +39,9 @@ if(driverName != null) {
 } else {
   print('Driver Name is not available');
 }
+
+//Null assertion operator (!)
+//Use with caution, it tells Dart that you are sure this value is not null
+print('Driver Name: ${driverName!}'); // This will throw an error if driverName is null
+// //Better to use null-aware operators
+// print('Driver Name: ${driverName ?? "No Driver Assigned"}'); // Provides a default value if null
