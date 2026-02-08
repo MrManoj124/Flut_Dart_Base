@@ -122,4 +122,17 @@ int b = 10;
 print('The sum of $a and $b is ${a + b}'); // Output: The sum of 5 and 10 is 15
 
 
+//Dart also supports string concatenation using the + operator
+String firstName = "John";
+String lastName = "Doe";
+String fullName = firstName + " " + lastName;
+print(fullName); // Output: John Doe
 
+
+//Dart also has string literals for raw strings and multi-line strings
+String rawStringExample = r'This is a raw string. Backslashes like \n are not interpreted.';
+String multiLineStringExample = '''This is a multi-line string.
+It can span multiple lines without needing concatenation.''';
+
+
+//Dart also has string methods for manipulation
