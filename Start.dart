@@ -32,3 +32,10 @@ String name; // Error: Non-nullable variable 'name' must be initialized.
 String? driverName; // This is allowed, nullableName can be null
 String nameIs = 'Myne'; // This is a non-nullable variable, it must be initialized and cannot be null
 
+
+//Null Check
+if(driverName != null) {
+  print('Driver Name: $driverName');
+} else {
+  print('Driver Name is not available');
+}
