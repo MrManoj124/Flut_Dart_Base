@@ -28,3 +28,7 @@ const pi = 3.14159; // Must be a compile-time constant
 //Use final for API / Firebase data
 
 //Null Safety in Dart
+String name; // Error: Non-nullable variable 'name' must be initialized.
+String? driverName; // This is allowed, nullableName can be null
+String nameIs = 'Myne'; // This is a non-nullable variable, it must be initialized and cannot be null
+
