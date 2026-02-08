@@ -107,3 +107,13 @@ It can span multiple lines without needing concatenation.
 String rawString = r'This is a raw string. Backslashes like \n are not
 interpreted.';
 
+
+//Dart also supports string methods for manipulation
+String greeting = "Hello, World!";
+print(greeting.toUpperCase()); // Output: HELLO, WORLD!
+print(greeting.toLowerCase()); // Output: hello, world!
+print(greeting.length); // Output: 13
+print(greeting.contains('World')); // Output: true
+
+
+
