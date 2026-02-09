@@ -203,3 +203,8 @@ print(area); // Output: 78.5
 double calculateFare(double distance, double ratePerKm) => distance * ratePerKm;
 double fare = calculateFare(10, 15);  
 print(fare); // Output: 150.0
+
+//Multiple Parameters
+double calculateFare(double distance, double ratePerKm, double surgeMultiplier) {
+  return distance * ratePerKm * surgeMultiplier;
+}
