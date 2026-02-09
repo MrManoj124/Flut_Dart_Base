@@ -17,7 +17,7 @@ double fare = 1500.50;
 
 
 // isDriverAssigned
-
+bool isDriverAssigned = true;
 
 // Print a sentence using interpolation.
 
