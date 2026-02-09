@@ -34,3 +34,16 @@ if(fare > 500){
 else{
     print("Normal ride");
 }
+
+//Exercise 03
+// Create a nullable variable String? driverName
+String? driverName;
+
+// Assign value later
+driverName = "Kamal";
+// Print driver name safely
+// if(driverName != null){
+//     print("Driver name is $driverName");
+// } else {
+//     print("Driver name is not assigned");
+// }
