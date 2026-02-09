@@ -5,6 +5,8 @@ String passengername="Meroon";
 String drivername="Kamal";
 
 // pickup location
+String pickup="Colombo";
+
 // drop location
 // fare
 // isDriverAssigned
