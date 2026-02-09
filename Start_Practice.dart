@@ -49,4 +49,11 @@ if(driverName != null){
     print("Driver name is not assigned");
 }
 
+//Exercise 04
+//Simulate Cab Availablity
+// Create a boolean variable isCabAvailable
+bool isCabAvailable = true;
+
+// Check cab availability
+
 
