@@ -170,3 +170,13 @@ void main() {
 double calculateFare(double distance, double ratePerKm) {
   return distance * ratePerKm;
 }
+
+//Basic Function Structure
+//Return Type Function Name(Parameter List) {
+//  // Function body
+//  return value;
+//}
+returnType functionName(parameters) {
+  // logic
+  return value;
+}
