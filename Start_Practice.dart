@@ -23,3 +23,14 @@ bool isDriverAssigned = true;
 print("Passenger $passengername has been assigned to driver $drivername. 
 The pickup location is $pickup and the drop location is $drop. The fare is $fare.");
 
+
+//Exercise 02
+// Write a program:
+// If fare > 500 → print "High value ride"
+if(fare > 500){
+    print("High value ride");
+}
+// Else → print "Normal ride"
+else{
+    print("Normal ride");
+}
