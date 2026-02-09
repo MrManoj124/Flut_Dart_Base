@@ -180,3 +180,10 @@ returnType functionName(parameters) {
   // logic
   return value;
 }
+
+//Example of a function that calculates the fare for a ride based on distance and rate per kilometer
+int add(int a, int b) {
+  return a + b;
+}
+// int result = add(5, 10);
+// print(result); // Output: 15
