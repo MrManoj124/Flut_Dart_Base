@@ -55,5 +55,10 @@ if(driverName != null){
 bool isCabAvailable = true;
 
 // Check cab availability
+if(isCabAvailable){
+    print("Cab is available. You can book your ride.");
+} else {
+    print("No cabs available at the moment. Please try again later.");
+}
 
 
