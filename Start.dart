@@ -163,3 +163,10 @@ void main() {
 //In the next lessons, we will dive deeper into Dart's control flow statements, functions, and object-oriented programming concepts. Stay tuned!
 //Thank you for following along with this introduction to Dart. I hope you found it helpful and informative. If you have any questions or need further clarification on any of the topics covered, feel free to ask. Happy coding!
 
+
+
+//******Day 02 Practice******
+//basic functions
+double calculateFare(double distance, double ratePerKm) {
+  return distance * ratePerKm;
+}
