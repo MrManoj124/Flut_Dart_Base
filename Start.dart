@@ -199,3 +199,7 @@ void printTripDetails(String driver, String pickup, String drop) {
 double calculateArea(double radius) => 3.14 * radius * radius;
 double area = calculateArea(5);
 print(area); // Output: 78.5
+
+double calculateFare(double distance, double ratePerKm) => distance * ratePerKm;
+double fare = calculateFare(10, 15);  
+print(fare); // Output: 150.0
