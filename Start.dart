@@ -150,6 +150,6 @@ void main() {
   double distance = 115.5;
 
   print("Pickup Location: $pickup");
-//   print("Destination: $destination");
+  print("Destination: $destination");
 //   print("Distance: $distance km");
 // }
