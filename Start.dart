@@ -144,10 +144,10 @@ print(example.contains('great')); // Output: true
 
 
 //Input Simulation
-// void main() {
-//   String pickup = "Colombo";
-//   String destination = "Kandy";
-//   double distance = 115.5;
+void main() {
+  String pickup = "Colombo";
+  String destination = "Kandy";
+  double distance = 115.5;
 
 //   print("Pickup Location: $pickup");
 //   print("Destination: $destination");
