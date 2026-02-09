@@ -194,3 +194,8 @@ void printTripDetails(String driver, String pickup, String drop) {
   print("Pickup Location: $pickup");
   print("Drop Location: $drop");
 }
+
+//Arrow Function Syntax
+double calculateArea(double radius) => 3.14 * radius * radius;
+double area = calculateArea(5);
+print(area); // Output: 78.5
