@@ -153,3 +153,13 @@ void main() {
   print("Destination: $destination");
   print("Distance: $distance km");
 }
+
+//In a real Flutter app, you would get this data from user input or an API, but for now we are simulating it with hardcoded values.
+//This is just a simple example to show how we can use variables and string interpolation to display information in Dart.
+//In a real Flutter app, you would typically use TextFields to get user input and then display it in the UI using Text widgets.
+//For example, you might have a TextField for the pickup location, another for the destination, and a third for the distance. Then you would use the values from those TextFields to display the information in the UI.
+//This is just a starting point to help you understand the basics of Dart and how it can be used in a Flutter app. As you continue learning, you will see how these concepts come together to create powerful and dynamic applications!
+//Remember, practice is key when learning a new programming language. Try experimenting with different types of variables, operators, and string manipulations to get a better feel for how Dart works. Happy coding!
+//In the next lessons, we will dive deeper into Dart's control flow statements, functions, and object-oriented programming concepts. Stay tuned!
+//Thank you for following along with this introduction to Dart. I hope you found it helpful and informative. If you have any questions or need further clarification on any of the topics covered, feel free to ask. Happy coding!
+
