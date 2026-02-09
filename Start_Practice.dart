@@ -9,7 +9,15 @@ String pickup="Colombo";
 
 // drop location
 String drop = "Galle";
+
+
+
 // fare
+double fare = 1500.50;
+
+
 // isDriverAssigned
+
+
 // Print a sentence using interpolation.
 
