@@ -8,6 +8,7 @@ String drivername="Kamal";
 String pickup="Colombo";
 
 // drop location
+String drop = "Galle";
 // fare
 // isDriverAssigned
 // Print a sentence using interpolation.
