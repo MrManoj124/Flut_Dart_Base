@@ -185,5 +185,5 @@ returnType functionName(parameters) {
 int add(int a, int b) {
   return a + b;
 }
-// int result = add(5, 10);
-// print(result); // Output: 15
+int result = add(5, 10);
+print(result); // Output: 15
