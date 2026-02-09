@@ -43,8 +43,10 @@ String? driverName;
 driverName = "Kamal";
 
 // Print driver name safely
-// if(driverName != null){
-//     print("Driver name is $driverName");
-// } else {
-//     print("Driver name is not assigned");
-// }
+if(driverName != null){
+    print("Driver name is $driverName");
+} else {
+    print("Driver name is not assigned");
+}
+
+
