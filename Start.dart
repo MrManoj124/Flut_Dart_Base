@@ -187,3 +187,10 @@ int add(int a, int b) {
 }
 int result = add(5, 10);
 print(result); // Output: 15
+
+//Functions with No Return (void)
+void printTripDetails(String driver, String pickup, String drop) {
+  print("Driver: $driver");
+  print("Pickup Location: $pickup");
+  print("Drop Location: $drop");
+}
