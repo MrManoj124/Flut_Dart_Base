@@ -220,3 +220,10 @@ double fare2 = calculateFare(10, 15, 1.5); // Uses
 print(fare1); // Output: 150.0
 print(fare2); // Output: 225.0
 
+//Optional Parameters
+void showDriver(String name, [String? vehicle]) {
+  print("Driver Name: $name");
+  if (vehicle != null) {
+    print("Vehicle: $vehicle");
+  }
+}
