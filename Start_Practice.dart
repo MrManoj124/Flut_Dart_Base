@@ -20,4 +20,6 @@ double fare = 1500.50;
 bool isDriverAssigned = true;
 
 // Print a sentence using interpolation.
+print("Passenger $passengername has been assigned to driver $drivername. 
+The pickup location is $pickup and the drop location is $drop. The fare is $fare.");
 
