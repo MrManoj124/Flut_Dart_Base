@@ -210,3 +210,8 @@ double calculateFare(double distance, double ratePerKm, double surgeMultiplier) 
 }
 double fare = calculateFare(10, 15, 1.5);
 print(fare); // Output: 225.0
+
+//Default Parameters
+double calculateFare(double distance, double ratePerKm, [double surgeMultiplier = 1.0]) {
+  return distance * ratePerKm * surgeMultiplier;
+}
