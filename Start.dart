@@ -149,7 +149,7 @@ void main() {
   String destination = "Kandy";
   double distance = 115.5;
 
-//   print("Pickup Location: $pickup");
+  print("Pickup Location: $pickup");
 //   print("Destination: $destination");
 //   print("Distance: $distance km");
 // }
