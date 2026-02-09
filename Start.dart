@@ -227,3 +227,5 @@ void showDriver(String name, [String? vehicle]) {
     print("Vehicle: $vehicle");
   }
 }
+showDriver("Kamal"); // Output: Driver Name: Kamal
+showDriver("Kamal", "Toyota"); // Output: Driver Name: Kamal, Vehicle: Toyota
