@@ -331,5 +331,7 @@ double calculateTotalFareForMultipleRides({
   }
 
   return totalFare;
-})
+});
+List<double> rideDistances = [10, 15, 20];
+
 
