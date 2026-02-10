@@ -351,4 +351,7 @@ Map<String, dynamic> getTripSummary(){
 }
 
 //Using the function
+Map<String, dynamic> tripSummary = getTripSummary();
+// print('Distance: ${tripSummary["distance"]} km'); // Output: Distance: 12.5 km
+// print('Fare: \$${tripSummary["fare"]}'); // Output: Fare: $
 
