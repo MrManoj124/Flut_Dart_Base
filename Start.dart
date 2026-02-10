@@ -277,3 +277,17 @@ double calculateCabFare(double distance, double ratePerKm, [double surgeMultipli
 double fare = calculateCabFare(12.5, 20.0, 1.2);
 print('Total Cab Fare: \$${fare.toStringAsFixed(2)}'); // Output
 //: Total Cab Fare: $300.00
+
+
+double calculateCabFares({
+  required double distance,
+  bool isPeakHour = false,
+}) {
+  double baseRate = 50;
+
+  if (isPeakHour) {
+    baseRate += 20;
+  }
+
+  return distance * baseRate;
+}
