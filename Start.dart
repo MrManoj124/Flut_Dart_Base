@@ -307,4 +307,7 @@ double calculateTotalFare({
   required double ratePerKm,
   double surgeMultiplier = 1.0,
 })
+{
+  return distance * ratePerKm * surgeMultiplier;
+}
 
