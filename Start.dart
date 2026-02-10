@@ -253,3 +253,5 @@ bookRide(pickup: "Colombo", drop: "Kandy", distance: 115.5); // Output: Pickup: 
 double calculateFare(double distance, double ratePerKm) {
   return distance * ratePerKm;
 }
+double fare = calculateFare(10, 15);
+print(fare); // Output: 150.0
