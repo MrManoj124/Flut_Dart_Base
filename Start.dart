@@ -263,3 +263,5 @@ void printTripleDetails(String driver, String pickup, String drop) {
   print("Pickup Location: $pickup");
   print("Drop Location: $drop");
 }
+
+//Arrow Function Syntax
