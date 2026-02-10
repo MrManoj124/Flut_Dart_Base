@@ -333,5 +333,10 @@ double calculateTotalFareForMultipleRides({
   return totalFare;
 });
 List<double> rideDistances = [10, 15, 20];
+double totalFare = calculateTotalFareForMultipleRides(
+  distances: rideDistances,
+  ratePerKm: 15,
+  surgeMultiplier: 1.5,
+);
 
 
