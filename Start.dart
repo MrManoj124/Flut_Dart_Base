@@ -271,3 +271,6 @@ print(area); // Output: 78.5
 
 
 //Real Cab Fare Logic
+double calculateCabFare(double distance, double ratePerKm, [double surgeMultiplier = 1.0]) {
+  return distance * ratePerKm * surgeMultiplier;
+}
