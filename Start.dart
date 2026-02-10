@@ -310,4 +310,8 @@ double calculateTotalFare({
 {
   return distance * ratePerKm * surgeMultiplier;
 }
+double fare1 = calculateTotalFare(distance: 10, ratePerKm: 15); // No surge
+double fare2 = calculateTotalFare(distance: 10, ratePerKm: 15,
+surgeMultiplier: 1.5); // With surge
+
 
