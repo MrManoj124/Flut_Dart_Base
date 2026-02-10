@@ -341,3 +341,12 @@ double totalFare = calculateTotalFareForMultipleRides(
 print('Total Fare for Multiple Rides: \$${totalFare.toStringAsFixed(2)}'); // Output: Total Fare for Multiple Rides: $675.00
 
 
+//Returning Multiple Values
+Map<String, dynamic> getTripSummary(){
+  return {
+    "distance": 12.5,
+    "fare": 250.0,
+    "Status": "Completed",
+  };
+}
+
