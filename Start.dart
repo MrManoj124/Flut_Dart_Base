@@ -229,3 +229,18 @@ void showDriver(String name, [String? vehicle]) {
 }
 showDriver("Kamal"); // Output: Driver Name: Kamal
 showDriver("Kamal", "Toyota"); // Output: Driver Name: Kamal, Vehicle: Toyota
+
+
+//Named Parameters
+void bookRide({
+  required String pickup,
+  required String drop,
+  double? distance,
+// }) {
+//   print("Pickup: $pickup");
+//   print("Drop: $drop");
+//   if (distance != null) {
+//     print("Distance: $distance km");
+//   }
+//   }
+// })
