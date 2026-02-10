@@ -255,3 +255,6 @@ double calculateFare(double distance, double ratePerKm) {
 }
 double fare = calculateFare(10, 15);
 print(fare); // Output: 150.0
+
+
+//Void Function (No Return)
