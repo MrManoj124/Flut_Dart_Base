@@ -323,12 +323,12 @@ double calculateTotalFareForMultipleRides({
   required List<double> distances,
   required double ratePerKm,
   double surgeMultiplier = 1.0,
-// }) {
-//   double totalFare = 0.0;
+}) {
+  double totalFare = 0.0;
 
-//   for (double distance in distances) {
-//     totalFare += distance * ratePerKm * surgeMultiplier;
-//   }
+  for (double distance in distances) {
+    totalFare += distance * ratePerKm * surgeMultiplier;
+  }
 
 //   return totalFare;
 // })
