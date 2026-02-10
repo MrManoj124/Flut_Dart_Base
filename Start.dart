@@ -268,3 +268,6 @@ void printTripleDetails(String driver, String pickup, String drop) {
 double calculateArea(double radius) => 3.14 * radius * radius;
 double area = calculateArea(5);
 print(area); // Output: 78.5
+
+
+//Real Cab Fare Logic
