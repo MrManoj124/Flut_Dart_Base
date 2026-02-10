@@ -313,5 +313,7 @@ double calculateTotalFare({
 double fare1 = calculateTotalFare(distance: 10, ratePerKm: 15); // No surge
 double fare2 = calculateTotalFare(distance: 10, ratePerKm: 15,
 surgeMultiplier: 1.5); // With surge
+print('Total Fare without surge: \$${fare1.toStringAsFixed(2)}'); // Output: Total Fare without surge: $150.00
+print('Total Fare with surge: \$${fare2.toStringAsFixed(2)}');
 
 
