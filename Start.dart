@@ -338,5 +338,6 @@ double totalFare = calculateTotalFareForMultipleRides(
   ratePerKm: 15,
   surgeMultiplier: 1.5,
 );
+print('Total Fare for Multiple Rides: \$${totalFare.toStringAsFixed(2)}'); // Output: Total Fare for Multiple Rides: $675.00
 
 
