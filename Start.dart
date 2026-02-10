@@ -317,3 +317,6 @@ print('Total Fare without surge: \$${fare1.toStringAsFixed(2)}'); // Output: Tot
 print('Total Fare with surge: \$${fare2.toStringAsFixed(2)}');
 
 
+//Practice Exercise: Create a function that takes a list of distances for multiple rides and calculates the total fare for all rides combined. 
+//Use a loop to iterate through the list of distances and apply the fare calculation for each ride, then return the total fare.
+
