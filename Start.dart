@@ -236,12 +236,12 @@ void bookRide({
   required String pickup,
   required String drop,
   double? distance,
-// }) 
+ }) 
 {
-//   print("Pickup: $pickup");
-//   print("Drop: $drop");
-//   if (distance != null) {
-//     print("Distance: $distance km");
-//   }
-//   }
-// })
+  print("Pickup: $pickup");
+  print("Drop: $drop");
+  if (distance != null) {
+    print("Distance: $distance km");
+  }
+  }
+});
