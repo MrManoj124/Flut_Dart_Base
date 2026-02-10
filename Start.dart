@@ -274,3 +274,6 @@ print(area); // Output: 78.5
 double calculateCabFare(double distance, double ratePerKm, [double surgeMultiplier = 1.0]) {
   return distance * ratePerKm * surgeMultiplier;
 }
+double fare = calculateCabFare(12.5, 20.0, 1.2);
+print('Total Cab Fare: \$${fare.toStringAsFixed(2)}'); // Output
+//: Total Cab Fare: $300.00
