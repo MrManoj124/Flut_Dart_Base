@@ -330,6 +330,6 @@ double calculateTotalFareForMultipleRides({
     totalFare += distance * ratePerKm * surgeMultiplier;
   }
 
-//   return totalFare;
-// })
+  return totalFare;
+})
 
