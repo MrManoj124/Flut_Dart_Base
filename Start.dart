@@ -265,3 +265,5 @@ void printTripleDetails(String driver, String pickup, String drop) {
 }
 
 //Arrow Function Syntax
+double calculateArea(double radius) => 3.14 * radius * radius;
+double area = calculateArea(5);
