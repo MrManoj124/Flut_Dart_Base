@@ -350,3 +350,5 @@ Map<String, dynamic> getTripSummary(){
   };
 }
 
+//Using the function
+
