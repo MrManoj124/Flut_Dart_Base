@@ -247,3 +247,9 @@ void bookRide({
 });
 bookRide(pickup: "Colombo", drop: "Kandy"); // Output: Pickup: Colombo, Drop: Kandy
 bookRide(pickup: "Colombo", drop: "Kandy", distance: 115.5); // Output: Pickup: Colombo, Drop: Kandy, Distance: 115.5 km
+
+
+//Function with Return Type
+double calculateFare(double distance, double ratePerKm) {
+  return distance * ratePerKm;
+}
