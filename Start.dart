@@ -282,15 +282,15 @@ print('Total Cab Fare: \$${fare.toStringAsFixed(2)}'); // Output
 double calculateCabFares({
   required double distance,
   bool isPeakHour = false,
-// }) {
-//   double baseRate = 50;
+}) {
+  double baseRate = 50;
 
-//   if (isPeakHour) {
-//     baseRate += 20;
-//   }
+  if (isPeakHour) {
+    baseRate += 20;
+  }
 
-//   return distance * baseRate;
-// }
+  return distance * baseRate;
+}
 // double fare1 = calculateCabFares(distance: 10); // Non-peak hour fare
 // double fare2 = calculateCabFares(distance: 10, isPeakHour: true);
 // print('Fare during non-peak hours: \$${fare1.toStringAsFixed(2)}'); // Output: Fare during non-peak hours: $500.00
