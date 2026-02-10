@@ -258,3 +258,8 @@ print(fare); // Output: 150.0
 
 
 //Void Function (No Return)
+void printTripleDetails(String driver, String pickup, String drop) {
+//   print("Driver: $driver");
+//   print("Pickup Location: $pickup");
+//   print("Drop Location: $drop");
+// }
