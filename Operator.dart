@@ -32,3 +32,5 @@ print("x <= y: ${x <= y}"); // Output: true
 
 
 //Logical operators
+var isSunny = true;
+var isWarm = false;
