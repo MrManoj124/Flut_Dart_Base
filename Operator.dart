@@ -27,3 +27,5 @@ print("x > y: ${x > y}"); // Output: false
 print("x < y: ${x < y}"); // Output: true
 print("x == y: ${x == y}"); // Output: false
 print("x != y: ${x != y}"); // Output: true
+print("x >= y: ${x >= y}"); // Output: false
+print("x <= y: ${x <= y}"); // Output: true
