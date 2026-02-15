@@ -22,3 +22,4 @@ print("Modulo Operator: ${a % b}"); // Output: 1 (modulo operator)
 
 //Relational and type test operators
 var x = 5;
+var y = 10;
