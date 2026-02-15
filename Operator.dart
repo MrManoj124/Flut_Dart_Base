@@ -25,3 +25,5 @@ var x = 5;
 var y = 10;
 print("x > y: ${x > y}"); // Output: false
 print("x < y: ${x < y}"); // Output: true
+print("x == y: ${x == y}"); // Output: false
+print("x != y: ${x != y}"); // Output: true
