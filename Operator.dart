@@ -34,3 +34,4 @@ print("x <= y: ${x <= y}"); // Output: true
 //Logical operators
 var isSunny = true;
 var isWarm = false;
+print("Is it sunny and warm? ${isSunny && isWarm}"); // Output: false
