@@ -18,3 +18,7 @@ print("Multiplication: ${a * b}"); // Output: 30
 print("Division: ${a / b}"); // Output: 3.3333333333333335
 print("Integer Division: ${a ~/ b}"); // Output: 3 (integer division)
 print("Modulo Operator: ${a % b}"); // Output: 1 (modulo operator)
+
+
+//Relational and type test operators
+var x = 5;
