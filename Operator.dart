@@ -55,3 +55,5 @@ print("After Remainder assignment : ${c}"); //Output 0
 
 
 //Bitwise operators
+var e = 5; // In binary : 0101
+var f = 3; // In binary : 0011
