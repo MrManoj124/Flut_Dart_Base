@@ -47,3 +47,4 @@ print("After addition assignment : ${c}");//output 15
 c -= d; //Equivalent to c = c - d
 print("After subtraction assignment : ${c}"); //output 5
 c *= d; //Equivalent to c = c * d
+print("After multiplication assignment : ${c}"); //Output 50
