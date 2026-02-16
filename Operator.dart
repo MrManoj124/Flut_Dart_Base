@@ -52,3 +52,6 @@ c ~/ = d; //Equivalent to c = c ~/ d
 print("After Division assignment : ${c}"); //Output 5
 c %= d; //Equivalent to c = c % d 
 print("After Remainder assignment : ${c}"); //Output 0
+
+
+//Bitwise operators
