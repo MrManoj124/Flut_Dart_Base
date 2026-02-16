@@ -40,3 +40,6 @@ print("Is it not sunny? ${!isSunny}"); // Output: false
 
 
 //Assignment Operators
+var c = 5;
+var d = 10;
+c += d; // Equivalent to c = c + d
