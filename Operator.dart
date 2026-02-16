@@ -37,3 +37,6 @@ var isWarm = false;
 print("Is it sunny and warm? ${isSunny && isWarm}"); // Output: false
 print("Is it sunny or warm? ${isSunny || isWarm}"); // Output: true
 print("Is it not sunny? ${!isSunny}"); // Output: false
+
+
+//Assignment Operators
