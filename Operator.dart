@@ -67,3 +67,5 @@ print("Bitwise NOT : ${~e}"); // Output : -6 (In binary : 1010)
 //Shift operators
 var g = 8 ; // In binary : 1000
 print("Left shift : ${g << 2}"); //Output : 32 (In binary  : 100000)
+print("Right shift : ${g >> 2}"); //Output : 2 (In binary : 10)
+print("Unsigned right shift : ${g >>> 2}"); //Output : 2 (In binary : 10)
