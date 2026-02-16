@@ -58,5 +58,8 @@ print("After Remainder assignment : ${c}"); //Output 0
 var e = 5; // In binary : 0101
 var f = 3; // In binary : 0011
 print("Bitwise AND : ${e & f}"); // Output : 1 (In binary : 0001)
-print("Bitwise OR : ${e / f}"); // Output : 7 (In binary : 0111)
- 
+print("Bitwise OR : ${e | f}"); // Output : 7 (In binary : 0111)
+print("Bitwise XOR : ${e ^ f}"); // Output : 6 (In binary : 0110)
+print("Bitwise NOT : ${~e}"); // Output : -6 (In binary : 1010)
+
+
