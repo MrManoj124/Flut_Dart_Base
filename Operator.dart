@@ -80,3 +80,4 @@ print(result); //Output  : Greater than 5
 //Example for conditional expression
 var isPublic = true;
 var visibility = isPublic ? "Public " : "Private";
+print ("The visibility is  : ${visibility}"); //Output  : The visibility is : Public
