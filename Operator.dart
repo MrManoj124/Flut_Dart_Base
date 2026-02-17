@@ -120,3 +120,8 @@ print("Is value an int? ${value is int}"); //Output : Is value an int ? true
 //Example for type test operator
 dynamic data = "Hello, Mobliees";
 print("Is data a String ? ${data is String}"); //Output : Is data a String ? true
+
+
+//Example for type test operator with null safety
+dynamic nullableData = null;
+print("is NullableData null ? ${nullableData is Null}"); 
