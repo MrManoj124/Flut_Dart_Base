@@ -78,3 +78,5 @@ var result = (h > 5) ? "Greater than 5 " : "Less than or equal to 5";
 print(result); //Output  : Greater than 5
 
 //Example for conditional expression
+var isPublic = true;
+var visibility = isPublic ? "Public " : "Private";
