@@ -102,3 +102,9 @@ var student = Student()
 print("Student Name : ${student.name}"); //Output : Student Name : Abi
 print("Student Age : ${student.age}"); //Output : Student Age : 24
 print("Student Grade : ${student.grade}"); //Output : Student Grade : A
+
+
+//Example class for cascade notation
+class Student {
+  
+}
