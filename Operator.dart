@@ -106,5 +106,5 @@ print("Student Grade : ${student.grade}"); //Output : Student Grade : A
 
 //Example class for cascade notation
 class Student {
-  
+  String ? name; int ? age; String ? grade;
 }
