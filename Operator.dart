@@ -125,3 +125,7 @@ print("Is data a String ? ${data is String}"); //Output : Is data a String ? tru
 //Example for type test operator with null safety
 dynamic nullableData = null;
 print("is NullableData null ? ${nullableData is Null}"); 
+
+//addressBook Example for cascade notation
+
+
