@@ -81,3 +81,6 @@ print(result); //Output  : Greater than 5
 var isPublic = true;
 var visibility = isPublic ? "Public " : "Private";
 print ("The visibility is  : ${visibility}"); //Output  : The visibility is : Public
+
+
+//Check conditional expressoin with String
