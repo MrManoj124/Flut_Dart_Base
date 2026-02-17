@@ -129,12 +129,14 @@ print("is NullableData null ? ${nullableData is Null}");
 //addressBook Example for cascade notation
 final addressBook =
     (AddressBookBuilder()
-          ..name = 'jenny'
-          ..email = 'jenny@example.com'
+          ..name = 'rajeev'
+          ..email = 'jareev@example.com'
           ..phone =
               (PhoneNumberBuilder()
                     ..number = '415-555-0100'
                     ..label = 'home')
                   .build())
         .build();
-
+print("Name : ${addressBook.name}"); //Output : Name : rajeev
+print("Email : ${addressBook.email}"); //Output : Email : rajeev@example.com
+print("phone-Number : ${addressBook.phone.number}"); //Output : PhoneNumber : 415-555-0100
