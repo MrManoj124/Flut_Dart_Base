@@ -73,3 +73,5 @@ print("Unsigned right shift : ${g >>> 2}"); //Output : 2 (In binary : 10)
 
 
 //Conditional Expressions
+var h= 10;
+var result = (h > 5) ? "Greater than 5 " : "Less than or equal to 5";
