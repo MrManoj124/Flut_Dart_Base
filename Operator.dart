@@ -83,7 +83,10 @@ var visibility = isPublic ? "Public " : "Private";
 print ("The visibility is  : ${visibility}"); //Output  : The visibility is : Public
 
 
-//Check conditional expressoin with String
+//Check conditional expression with String
 String playerName (String ? name ) => name ?? "Unknown Player";
 print (playerName ("Manorooban")); //Output : Manorooban
 print (playerName (null)); //Output : Unknown player
+
+
+//Null-aware operators
