@@ -115,3 +115,8 @@ print("Student Grade : ${student.grade}"); // Output : Student Grade : A
 //Type test operators
 var value = 42 ;
 print("Is value an int? ${value is int}"); //Output : Is value an int ? true
+
+
+//Example for type test operator
+dymanic data = "Hello, Mobliees";
+print("Is data a String ? ${data is String}"); //Output : Is data a String ? true
