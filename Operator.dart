@@ -84,3 +84,6 @@ print ("The visibility is  : ${visibility}"); //Output  : The visibility is : Pu
 
 
 //Check conditional expressoin with String
+String playerName (String ? name ) => name ?? "Unknown Player";
+print (playerName ("Manorooban")); //Output : Manorooban
+print (playerName (null)); //Output : Unknown player
