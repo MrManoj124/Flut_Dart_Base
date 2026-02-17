@@ -111,3 +111,7 @@ class Student {
 print("Student Name : ${student.name}"); // Output : Student Name : Abi
 print("Student Age : ${student.age}"); // Output : Student Age : 24
 print("Student Grade : ${student.grade}"); // Output : Student Grade : A
+
+//Type test operators
+var value = 42 ;
+print("Is value an int? ${value is int}"); //Output : Is value an int ? true
