@@ -93,3 +93,9 @@ print (playerName (null)); //Output : Unknown player
 String ? nullableString = null;
 print ("Null-aware operator : ${nullableString ?? "Default value"}"); //Output : Default value
 
+
+//Cascade notation
+var student = Student()
+  ..name = "Abi"
+  ..age = 24
+  ..grade = "A";
