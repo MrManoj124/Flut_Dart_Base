@@ -99,3 +99,6 @@ var student = Student()
   ..name = "Abi"
   ..age = 24
   ..grade = "A";
+print("Student Name : ${student.name}"); //Output : Student Name : Abi
+print("Student Age : ${student.age}"); //Output : Student Age : 24
+print("Student Grade : ${student.grade}"); //Output : Student Grade : A
