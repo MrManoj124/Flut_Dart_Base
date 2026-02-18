@@ -147,3 +147,7 @@ void printMessage(final String message){
   print(message);
 });
 printMessage("hello Mobilees")
+
+
+//Spread Operation
+var list1 = [1,2,3,4,5];
