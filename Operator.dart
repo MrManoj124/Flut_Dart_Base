@@ -151,3 +151,4 @@ printMessage("hello Mobilees")
 
 //Spread Operation
 var list1 = [1,2,3,4,5];
+var list2 = [0, ...list1, 8,9,10]
