@@ -29,3 +29,7 @@ print("Is Student  : ${person.isStudent}"); //Output : Is Student : false
 var a = 50;
 var b = 10;
 print("Addition : ${a + b}"); 
+print("Subtraction : ${a - b}");
+print("multiplication : ${a * b}" );
+print("Division : ${a / b}");
+
