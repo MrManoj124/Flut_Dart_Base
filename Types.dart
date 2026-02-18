@@ -20,3 +20,6 @@ print("Is Logged In : ${isLoggedIn}"); //Output : Is Logged In : false
 
 //Records
 var person = (name : "Manorooban", age : 30, isStudent : false);
+print("Name : ${person.name}"); //Output : Name : Manorooban
+print("Age : ${person.age}"); // Output : Age : 30
+print("Is Student  : ${person.isStudent}"); //Output : Is Student : false
