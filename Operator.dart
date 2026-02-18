@@ -153,3 +153,6 @@ printMessage("hello Mobilees")
 var list1 = [1,2,3,4,5];
 var list2 = [0, ...list1, 8,9,10]
 print(list2); //output : [0,1,2,3,4,5,8,9,10]
+
+
+//Example for spread operator 
