@@ -23,3 +23,9 @@ var person = (name : "Manorooban", age : 30, isStudent : false);
 print("Name : ${person.name}"); //Output : Name : Manorooban
 print("Age : ${person.age}"); // Output : Age : 30
 print("Is Student  : ${person.isStudent}"); //Output : Is Student : false
+
+
+//Operators
+var a = 50;
+var b = 10;
+print("Addition : ${a + b}"); 
