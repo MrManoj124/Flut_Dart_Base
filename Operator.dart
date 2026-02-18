@@ -156,3 +156,6 @@ print(list2); //output : [0,1,2,3,4,5,8,9,10]
 
 
 //Example for spread operator 
+var set1 = {"a","n","o"};
+var set2 ={"m", ..."set1", "r","o","o","b","a", "n"};
+print(set2);
