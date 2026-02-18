@@ -16,3 +16,7 @@ var isActive = true;
 var isLoggedIn = false ;
 print("Is Active : ${isActive}");  //Output  : Is Active  : true
 print("Is Logged In : ${isLoggedIn}"); //Output : Is Logged In : false
+
+
+//Records
+var person = (name : "Manorooban", age : 30, isStudent : false);
