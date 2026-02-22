@@ -100,3 +100,6 @@ void main() {
     print("Normal Fare");
   }
 } 
+
+
+//Bitwise operators
