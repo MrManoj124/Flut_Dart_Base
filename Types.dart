@@ -75,3 +75,12 @@ if(IsLocalStorage == available || NetworkAccess == available){
 else{
     ("We can't ")
 }
+
+//NOT Operator
+void main() {
+  bool isDriverBusy = false;
+
+  if (!isDriverBusy) {
+    print("Driver Available");
+  }
+}
