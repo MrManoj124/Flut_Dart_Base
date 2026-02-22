@@ -40,3 +40,17 @@ var r == 10;
 var j !=10;
 print("r is equal to : ${r}")
 print("j is not equal to : ${j}")
+
+//Relational operators
+var no = 15;
+var no2 = 30;
+if(no <= no2)
+{
+    print("No2 is the Large number : ${no2}")
+}
+else
+{
+    print("No 1 is the largest number : ${no}")
+}
+
+
