@@ -114,3 +114,9 @@ assert((value ^ bitmask) == 0x2d); // XOR
 assert((value << 4) == 0x220); // Shift left
 assert((value >> 4) == 0x02); // Shift right
 
+// Shift right example that results in different behavior on web
+// because the operand value changes when masked to 32 bits:
+assert((-value >> 4) == -0x03);
+
+assert((value >>> 4) == 0x02); // Unsigned shift right
+assert((-value >>> 4) > 0); // Unsigned shift right
