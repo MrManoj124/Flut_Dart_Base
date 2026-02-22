@@ -65,3 +65,13 @@ if(today==wednesday && lectures_finishingTime == 12.30){
 else{
     print("We can't go")
 }
+
+//OR Operator
+bool IsLocalStorage = available;
+bool NetworkAccess = available;
+if(IsLocalStorage == available || NetworkAccess == available){
+    print("we can store our data");
+}
+else{
+    ("We can't ")
+}
