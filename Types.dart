@@ -35,3 +35,8 @@ print("Division : ${a / b}");
 
 
 //Equality and relational operators
+//Equal operator
+var r == 10;
+var j !=10;
+print("r is equal to : ${r}")
+print("j is not equal to : ${j}")
