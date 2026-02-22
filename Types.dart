@@ -54,3 +54,14 @@ else
 }
 
 
+//Logical Operators
+//AND Operators
+bool today = wednesday;
+double lectures_finishingTime = 12.30;
+
+if(today==wednesday && lectures_finishingTime == 12.30){
+    print("We will go for outing")
+}
+else{
+    print("We can't go")
+}
