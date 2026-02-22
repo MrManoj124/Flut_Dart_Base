@@ -87,3 +87,16 @@ void main() {
 
 
 //Example for combined operators
+//Peak hour pricing
+void main() {
+  bool isPeakHour = true;
+  bool isRainy = true;
+
+  if (isPeakHour && isRainy) {
+    print("High Surge Pricing");
+  } else if (isPeakHour || isRainy) {
+    print("Medium Surge Pricing");
+  } else {
+    print("Normal Fare");
+  }
+} 
