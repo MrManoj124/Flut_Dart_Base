@@ -103,3 +103,5 @@ void main() {
 
 
 //Bitwise operators
+final value = 0x22;
+final bitmask = 0x0f;
