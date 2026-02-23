@@ -254,4 +254,17 @@ final constantMap = const {2: 'helium', 10: 'neon', 18: 'argon'};
 ?<key_expression>: ?<value_expression>
 
 
+//Example for null Aware Elements
+int? absentValue = null;
+int? presentValue = 3;
+var items = [
+  1,
+  ?absentValue,
+  ?presentValue,
+  absentValue,
+  5,
+]; // [1, 3, null, 5]
+
+
+
 
