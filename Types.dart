@@ -220,3 +220,9 @@ gifts['fourth'] = 'calling birds'; // Add a key-value pair
 //Retrieve a value from a map using the subscript operator ([]):
 var gifts = {'first': 'partridge'};
 assert(gifts['first'] == 'partridge');
+
+
+//If you look for a key that isn't in a map, you get null in return:
+var gifts = {'first': 'partridge'};
+assert(gifts['fifth'] == null);
+
