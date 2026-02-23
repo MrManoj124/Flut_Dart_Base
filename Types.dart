@@ -216,3 +216,7 @@ nobleGases[18] = 'argon';
 var gifts = {'first': 'partridge'};
 gifts['fourth'] = 'calling birds'; // Add a key-value pair
 
+
+//Retrieve a value from a map using the subscript operator ([]):
+var gifts = {'first': 'partridge'};
+assert(gifts['first'] == 'partridge');
