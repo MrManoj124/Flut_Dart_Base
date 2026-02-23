@@ -161,5 +161,6 @@ assert(iMeantToDoThis.isNaN);
 var halogens = {'fluorine', 'chlorine', 'bromine', 'iodine', 'astatine'};
 
 
+//create an empty set, use {}
 
 
