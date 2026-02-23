@@ -146,6 +146,8 @@ assert(fullName.isEmpty);
 var hitPoints = 0;
 assert(hitPoints == 0);
 
-
+// Check for null.
+var unicorn = null;
+assert(unicorn == null);
 
 
