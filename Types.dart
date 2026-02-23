@@ -232,3 +232,8 @@ var gifts = {'first': 'partridge'};
 gifts['fourth'] = 'calling birds';
 assert(gifts.length == 2);
 
+
+//To create a map that's a compile-time constant, add const before the map literal: 
+final constantMap = const {2: 'helium', 10: 'neon', 18: 'argon'};
+
+// constantMap[2] = 'Helium'; // This line will cause an error.
