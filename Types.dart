@@ -162,5 +162,14 @@ var halogens = {'fluorine', 'chlorine', 'bromine', 'iodine', 'astatine'};
 
 
 //create an empty set, use {}
+var names = <String>{};
+// Set<String> names = {}; // This works, too.
+// var names = {}; // Creates a map, not a set.
+
+
+//Add items to an existing set using the add() or addAll() methods:
+var elements = <String>{};
+elements.add('fluorine');
+elements.addAll(halogens);
 
 
