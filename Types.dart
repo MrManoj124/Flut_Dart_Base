@@ -120,3 +120,6 @@ assert((-value >> 4) == -0x03);
 
 assert((value >>> 4) == 0x02); // Unsigned shift right
 assert((-value >>> 4) > 0); // Unsigned shift right
+
+
+//put the value of an expression inside a string by using ${expression}.
