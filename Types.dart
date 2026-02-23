@@ -172,4 +172,6 @@ var elements = <String>{};
 elements.add('fluorine');
 elements.addAll(halogens);
 
+//Use .length
+
 
