@@ -273,6 +273,9 @@ String? absentKey = null;
 int? presentValue = 3;
 int? absentValue = null;
 
+var itemsA = {presentKey: absentValue}; // {Apple: null}
+var itemsB = {presentKey: ?absentValue}; // {}
+
 
 
 
