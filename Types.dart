@@ -180,4 +180,11 @@ assert(elements.length == 5);
 
 
 // add const before the set literal
-
+final constantSet = const {
+  'fluorine',
+  'chlorine',
+  'bromine',
+  'iodine',
+  'astatine',
+};
+// constantSet.add('helium'); // This line will cause an error.
