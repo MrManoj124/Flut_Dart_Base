@@ -250,4 +250,8 @@ final constantMap = const {2: 'helium', 10: 'neon', 18: 'argon'};
 // value is a null-aware element
 <key_expression>: ?<value_expression>
 
+// key and value are null-aware elements
+?<key_expression>: ?<value_expression>
+
+
 
