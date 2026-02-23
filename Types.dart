@@ -276,7 +276,11 @@ int? absentValue = null;
 var itemsA = {presentKey: absentValue}; // {Apple: null}
 var itemsB = {presentKey: ?absentValue}; // {}
 
+var itemsC = {absentKey: presentValue}; // {null: 3}
+var itemsD = {?absentKey: presentValue}; // {}
 
+var itemsE = {absentKey: absentValue}; // {null: null}
+var itemsF = {?absentKey: ?absentValue}; // {}
 
 
 
