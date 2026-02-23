@@ -191,3 +191,11 @@ final constantSet = const {
 
 
 //<--Maps-->
+var gifts = {
+  // Key:    Value
+  'first': 'partridge',
+  'second': 'turtledoves',
+  'fifth': 'golden rings',
+};
+
+var nobleGases = {2: 'helium', 10: 'neon', 18: 'argon'};
