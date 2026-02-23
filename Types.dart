@@ -141,3 +141,11 @@ assert(
 // Check for an empty string.
 var fullName = '';
 assert(fullName.isEmpty);
+
+// Check for zero.
+var hitPoints = 0;
+assert(hitPoints == 0);
+
+
+
+
