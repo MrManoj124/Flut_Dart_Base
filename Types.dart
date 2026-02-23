@@ -173,5 +173,9 @@ elements.add('fluorine');
 elements.addAll(halogens);
 
 //Use .length
+var elements = <String>{};
+elements.add('fluorine');
+elements.addAll(halogens);
+assert(elements.length == 5);
 
 
