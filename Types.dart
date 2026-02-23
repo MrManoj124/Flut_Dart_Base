@@ -226,3 +226,9 @@ assert(gifts['first'] == 'partridge');
 var gifts = {'first': 'partridge'};
 assert(gifts['fifth'] == null);
 
+
+//Use .length to get the number of key-value pairs in the map:
+var gifts = {'first': 'partridge'};
+gifts['fourth'] = 'calling birds';
+assert(gifts.length == 2);
+
