@@ -211,3 +211,8 @@ nobleGases[2] = 'helium';
 nobleGases[10] = 'neon';
 nobleGases[18] = 'argon';
 
+
+//Add a new key-value pair to an existing map using the subscript assignment operator ([]=): 
+var gifts = {'first': 'partridge'};
+gifts['fourth'] = 'calling birds'; // Add a key-value pair
+
