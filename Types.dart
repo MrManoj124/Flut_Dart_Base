@@ -136,3 +136,8 @@ assert(
       'That deserves all caps. '
           'STRING INTERPOLATION is very handy!',
 );
+
+
+// Check for an empty string.
+var fullName = '';
+assert(fullName.isEmpty);
