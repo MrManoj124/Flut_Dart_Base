@@ -267,6 +267,13 @@ var items = [
 
 
 //Illustrate Null-Aware Elements
+String? presentKey = 'Apple';
+String? absentKey = null;
+
+
+
+
+
 
 
 
