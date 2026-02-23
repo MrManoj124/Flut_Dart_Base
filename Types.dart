@@ -156,3 +156,10 @@ var iMeantToDoThis = 0 / 0;
 assert(iMeantToDoThis.isNaN);
 
 
+
+//<--Sets-->
+var halogens = {'fluorine', 'chlorine', 'bromine', 'iodine', 'astatine'};
+
+
+
+
