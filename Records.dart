@@ -7,3 +7,10 @@ var record = ('first', a:2, b:true, 'last');
     var(a,b) = record;
     return(b,a);
 }
+
+
+// Record type annotation in a variable declaration:
+(String, int) record;
+
+// Initialize it with a record expression:
+record = ('A string', 123);
