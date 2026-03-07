@@ -81,3 +81,18 @@ typedef ButtonItem = ({String label, Icon icon, void Function()? onPressed});
 final List<ButtonItem> buttons = [
   // ...
 ];
+
+
+//Example for Records and typedefs
+List<Container> widget = [
+  for (var button in buttons)
+    Container(
+      margin: const EdgeInsets.all(4.0),
+      child: OutlinedButton.icon(
+        onPressed: button.onPressed,
+        icon: button.icon,
+        label: Text(button.label),
+      ),
+    ),
+];
+
