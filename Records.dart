@@ -42,3 +42,21 @@ print(point == color); // Prints 'true'.
 
 print(point == color); // Prints 'false'. Lint: Equals on unrelated types.
 
+
+//Multiple returns
+// Returns multiple values in a record:
+(String name, int age) userInfo(Map<String, dynamic> json) {
+  return (json['name'] as String, json['age'] as int);
+}
+
+final json = <String, dynamic>{'name': 'Dash', 'age': 10, 'color': 'blue'};
+
+// Destructures using a record pattern with positional fields:
+var (name, age) = userInfo(json);
+
+/* Equivalent to:
+  var info = userInfo(json);
+  var name = info.$1;
+  var age  = info.$2;
+*/
+
