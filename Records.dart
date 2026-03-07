@@ -14,3 +14,12 @@ var record = ('first', a:2, b:true, 'last');
 
 // Initialize it with a record expression:
 record = ('A string', 123);
+
+
+//Record fields
+var record = ('first', a: 2, b: true, 'last');
+
+print(record.$1); // Prints 'first'
+print(record.a); // Prints 2
+print(record.b); // Prints true
+print(record.$2); // Prints 'last'
