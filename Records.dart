@@ -74,3 +74,10 @@ final buttons = [
     onPressed: () => print("Action -> Button II"),
   )
 ];
+
+
+//Records and typedefs
+typedef ButtonItem = ({String label, Icon icon, void Function()? onPressed});
+final List<ButtonItem> buttons = [
+  // ...
+];
