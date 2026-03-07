@@ -30,3 +30,11 @@ print(record.$2); // Prints 'last'
 var first = pair.$1; // Static type `num`, runtime type `int`.
 var second = pair.$2; // Static type `Object`, runtime type `String`.
 
+//Record equality
+(int x, int y, int z) point = (1, 2, 3);
+(int r, int g, int b) color = (1, 2, 3);
+
+print(point == color); // Prints 'true'.
+
+
+
