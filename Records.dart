@@ -23,3 +23,10 @@ print(record.$1); // Prints 'first'
 print(record.a); // Prints 2
 print(record.b); // Prints true
 print(record.$2); // Prints 'last'
+
+//Record types
+(num, Object) pair = (42, 'a');
+
+var first = pair.$1; // Static type `num`, runtime type `int`.
+var second = pair.$2; // Static type `Object`, runtime type `String`.
+
