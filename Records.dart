@@ -37,4 +37,8 @@ var second = pair.$2; // Static type `Object`, runtime type `String`.
 print(point == color); // Prints 'true'.
 
 
+({int x, int y, int z}) point = (x: 1, y: 2, z: 3);
+({int r, int g, int b}) color = (r: 1, g: 2, b: 3);
+
+print(point == color); // Prints 'false'. Lint: Equals on unrelated types.
 
