@@ -60,3 +60,17 @@ var (name, age) = userInfo(json);
   var age  = info.$2;
 */
 
+
+//Records as simple data structures
+final buttons = [
+  (
+    label: "Button I",
+    icon: const Icon(Icons.upload_file),
+    onPressed: () => print("Action -> Button I"),
+  ),
+  (
+    label: "Button II",
+    icon: const Icon(Icons.info),
+    onPressed: () => print("Action -> Button II"),
+  )
+];
