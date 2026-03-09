@@ -117,3 +117,16 @@ extension type ButtonItem._(({String label, Icon icon, void Function()? onPresse
 }
 
 
+//Create the list of button definitions
+final List<ButtonItem> buttons =  [
+  ButtonItem(
+    label: "Button I",
+    icon: const Icon(Icons.upload_file),
+    onPressed: () => print("Action -> Button I"),
+  ),
+  ButtonItem(
+    label: "Button II",
+    icon: const Icon(Icons.info),
+    onPressed: () => print("Action -> Button II"),
+  )
+];
