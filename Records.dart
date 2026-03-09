@@ -96,3 +96,14 @@ List<Container> widget = [
     ),
 ];
 
+
+//Create ButtonItem class
+class ButtonItem {
+  final String label;
+  final Icon icon;
+  final void Function()? onPressed;
+  ButtonItem({required this.label, required this.icon, this.onPressed});
+  bool get hasOnpressed => onPressed != null;
+}
+
+
