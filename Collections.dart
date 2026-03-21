@@ -53,4 +53,12 @@ final constantSet = const {
 
 //====Maps====
 //Dart support for maps is provided by map literals and the Map type. 
-// a couple of simple Dart maps, created using map literals:
+//Create a couple of simple Dart maps, created using map literals
+var gifts = {
+  // Key:    Value
+  'first': 'partridge',
+  'second': 'turtledoves',
+  'fifth': 'golden rings',
+};
+
+var nobleGases = {2: 'helium', 10: 'neon', 18: 'argon'};
