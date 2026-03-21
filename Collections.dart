@@ -91,3 +91,11 @@ var gifts = {'first': 'partridge'};
 //If you look for a key that isn't in a map, you get null in return:
 var gifts = {'first': 'partridge'};
 //assert(gifts['fifth'] == null);
+
+
+
+
+//Use .length to get the number of key-value pairs in the map
+var gifts = {'first': 'partridge'};
+gifts['fourth'] = 'calling birds';
+//assert(gifts.length == 2);
