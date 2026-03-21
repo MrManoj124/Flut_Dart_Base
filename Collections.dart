@@ -14,3 +14,5 @@ var constantList = const[5,15,25];
 
 //===Sets===
 //A set in Dart is an unordered collection of unique elements.
+//Create a Dart set, created using a set literal
+var halogens = {'fluorine', 'chlorine', 'bromine', 'iodine', 'astatine'};
