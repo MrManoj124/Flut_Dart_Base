@@ -80,3 +80,8 @@ nobleGase[18] = 'argon';
 //Add a new key-value pair to an existing map using the subscript assignment operator ([]=): 
 var gifts = {'first' : 'Partidge'};
 gifts['fourth']='calling birds'; // Add a key-value pair
+
+
+//Retrieve a value from a map using the subscript operator 
+var gifts = {'first': 'partridge'};
+//assert(gifts['first'] == 'partridge');
