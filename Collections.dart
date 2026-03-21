@@ -109,3 +109,8 @@ gifts['fourth'] = 'calling birds';
 
 //// value is a null-aware element
 <key_expression>: ?<value_expression>
+
+
+//// key and value are null-aware elements
+?<key_expression>: ?<value_expression>
+
