@@ -16,3 +16,11 @@ var constantList = const[5,15,25];
 //A set in Dart is an unordered collection of unique elements.
 //Create a Dart set, created using a set literal
 var halogens = {'fluorine', 'chlorine', 'bromine', 'iodine', 'astatine'};
+
+
+//To create an empty set, use {} preceded by a type argument, 
+//or assign {} to a variable of type Set: 
+
+var names = <String>{};
+// Set<String> names = {}; // This works, too.
+// var names = {}; // Creates a map, not a set.
