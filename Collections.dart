@@ -105,3 +105,7 @@ gifts['fourth'] = 'calling birds';
 //A null-aware element has the following syntax in a map entry element
 // key is a null-aware element
 <key_expression>: ?<value_expression>
+
+
+//// value is a null-aware element
+<key_expression>: ?<value_expression>
