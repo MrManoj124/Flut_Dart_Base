@@ -114,3 +114,17 @@ gifts['fourth'] = 'calling birds';
 //// key and value are null-aware elements
 ?<key_expression>: ?<value_expression>
 
+
+
+//the result for the null-aware element ?a is not added to a list called items because a is null
+int? absentValue = null;
+int? presentValue = 3;
+var items = [
+  1,
+  ?absentValue,
+  ?presentValue,
+  absentValue,
+  5,
+]; // [1, 3, null, 5]
+
+
