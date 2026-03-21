@@ -99,3 +99,9 @@ var gifts = {'first': 'partridge'};
 var gifts = {'first': 'partridge'};
 gifts['fourth'] = 'calling birds';
 //assert(gifts.length == 2);
+
+
+
+//A null-aware element has the following syntax in a map entry element
+// key is a null-aware element
+<key_expression>: ?<value_expression>
