@@ -62,3 +62,16 @@ var gifts = {
 };
 
 var nobleGases = {2: 'helium', 10: 'neon', 18: 'argon'};
+
+
+//You can create the same objects using a Map constructor
+var gift = Map<String, String>();
+gift['first'] = 'partridge';
+gift['second'] = 'turtledoves';
+gift['fifth'] = 'golden rings';
+
+
+var nobleGase = Map<int, String>();
+nobleGase[2] = 'helium';
+nobleGase[10] = 'neon';
+nobleGase[18] = 'argon';
