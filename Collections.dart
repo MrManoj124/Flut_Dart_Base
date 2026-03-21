@@ -10,3 +10,7 @@ var listed = [10,20,30];
 //Create a simple compil-time constant
 var constantList = const[5,15,25];
 //constantlist[1] = 1; //This line will couse error
+
+
+//===Sets===
+//A set in Dart is an unordered collection of unique elements.
