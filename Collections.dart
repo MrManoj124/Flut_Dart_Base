@@ -28,5 +28,12 @@ var names = <String>{};
 
 //Add items to an existing set using the add() or addAll() methods:
 var elements =<String>{};
-elements.add('fluorine');
-elements.addAll(halogens);
+//elements.add('fluorine');
+//elements.addAll(halogens);
+
+
+//Use .length to get the number of items in the set:
+var elements = <String>{};
+//elements.add('fluorine');
+//elements.addAll(halogens);
+//assert(elements.length == 5);
