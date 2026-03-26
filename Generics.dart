@@ -17,3 +17,8 @@ abstract class StringCache{
   String getByKey(String key);
   void setByKey(String key, String value);
 }
+
+
+//Generic types can save you the trouble of creating 
+//all these interfaces. Instead, you can create a single 
+//interface that takes a type parameter: 
