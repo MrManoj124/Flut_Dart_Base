@@ -78,3 +78,6 @@ var extenderFoo = Foo<Extender>();
 //Example for specify no generic argument
 var foot = Foo();
 print(foot); // Instance of 'Foo<SomeBaseClass>'
+
+
+//Self-referential type parameter restrictions (F-bounds)
