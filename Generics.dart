@@ -53,3 +53,6 @@ names.addAll(['Seth', 'Kathy', 'Lars']);
 print(names is List<String>); // true
 
 //Restricting the parameterized type
+class Foo<T extends Object> {
+  // Any type provided to Foo for T must be non-nullable.
+}
