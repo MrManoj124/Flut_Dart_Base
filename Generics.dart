@@ -72,3 +72,5 @@ class Extender extends SomeBaseClass {
 
 
 //use SomeBaseClass or any of its subtypes as the generic argument
+var someBaseClassFoo = Foo<SomeBaseClass>();
+var extenderFoo = Foo<Extender>();
