@@ -6,3 +6,8 @@
 //var names = <String>[];
 //names.addAll(['servar', 'Ellam','kaiyider','server']);
 //names.add(51);
+
+abstract class ObjectCache {
+  Object getByKey(String key);
+  void setByKey(String key, Object value);
+}
