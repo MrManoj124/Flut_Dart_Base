@@ -81,3 +81,8 @@ print(foot); // Instance of 'Foo<SomeBaseClass>'
 
 
 //Self-referential type parameter restrictions (F-bounds)
+abstract interface class Comparable<T> {
+  int compareTo(T o);
+}
+
+
