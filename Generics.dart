@@ -85,4 +85,7 @@ abstract interface class Comparable<T> {
   int compareTo(T o);
 }
 
+int compareAndOffset<T extends Comparable<T>>(T t1, T t2) =>
+    t1.compareTo(t2) + 1;
+
 
