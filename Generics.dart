@@ -3,6 +3,6 @@
 //you can declare it as List<String> (read that as "list of string").
 
 //Example for Generics
-var names = <String>[];
-names.addAll(['servar', 'Ellam','kaiyider','server']);
-names.add(51);
+//var names = <String>[];
+//names.addAll(['servar', 'Ellam','kaiyider','server']);
+//names.add(51);
