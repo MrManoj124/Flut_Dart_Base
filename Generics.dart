@@ -23,5 +23,6 @@ abstract class StringCache{
 //all these interfaces. Instead, you can create a single 
 //interface that takes a type parameter: 
 abstract class Cache<T> {
-  
+  T getByKey(String key);
+  void setByKey(String key, T value);
 }
