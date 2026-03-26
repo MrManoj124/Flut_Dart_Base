@@ -48,3 +48,7 @@ var views = SplayTreeMap<int, View>();
 
 
 //Generic collections and the types they contain
+var names = <String>[];
+names.addAll(['Seth', 'Kathy', 'Lars']);
+print(names is List<String>); // true
+
