@@ -93,4 +93,4 @@ class A implements Comparable<A> {
   int compareTo(A other) => /*...implementation...*/ 0;
 }
 
-
+int useIt = compareAndOffset(A(), A());
