@@ -32,3 +32,8 @@ abstract class Cache<T> {
 //List, set and map literals can be parameterized
 var names = <String>['Servar', 'Kathy', 'Ellam','server'];
 var uniqueNames = <String>['Servar', 'Kathy', 'Ellam','server'];
+var pages = <String, String>{
+  'index.html': 'Homepage',
+  'robots.txt': 'Hints for web robots',
+  'humans.txt': 'We are people, not machines',
+};
