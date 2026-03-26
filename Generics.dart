@@ -61,3 +61,11 @@ class Foo<T extends Object> {
 //We can use extends with other types besides Object. 
 //Here's an example of extending SomeBaseClass, so that members 
 //of SomeBaseClass can be called on objects of type T: 
+class Foo<T extends SomeBaseClass> {
+  // Implementation goes here...
+  String toString() => "Instance of 'Foo<$T>'";
+}
+
+class Extender extends SomeBaseClass {
+  ...
+}
