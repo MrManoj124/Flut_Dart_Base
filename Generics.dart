@@ -56,3 +56,8 @@ print(names is List<String>); // true
 class Foo<T extends Object> {
   // Any type provided to Foo for T must be non-nullable.
 }
+
+
+//We can use extends with other types besides Object. 
+//Here's an example of extending SomeBaseClass, so that members 
+//of SomeBaseClass can be called on objects of type T: 
