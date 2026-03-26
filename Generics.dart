@@ -69,3 +69,6 @@ class Foo<T extends SomeBaseClass> {
 class Extender extends SomeBaseClass {
   ...
 }
+
+
+//use SomeBaseClass or any of its subtypes as the generic argument
