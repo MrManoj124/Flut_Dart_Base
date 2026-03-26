@@ -37,3 +37,6 @@ var pages = <String, String>{
   'robots.txt': 'Hints for web robots',
   'humans.txt': 'We are people, not machines',
 };
+
+
+//Using parameterized types with constructors
