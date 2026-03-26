@@ -40,3 +40,4 @@ var pages = <String, String>{
 
 
 //Using parameterized types with constructors
+var nameSet = Set<String>.of(names);
