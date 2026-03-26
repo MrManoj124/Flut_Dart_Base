@@ -94,3 +94,12 @@ class A implements Comparable<A> {
 }
 
 int useIt = compareAndOffset(A(), A());
+
+
+//Using generic methods
+T first<T>(List<T> ts) {
+  // Do some initial work or error checking, then...
+  T tmp = ts[0];
+  // Do some additional checking or processing...
+  return tmp;
+}
