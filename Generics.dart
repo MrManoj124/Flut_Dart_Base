@@ -29,3 +29,4 @@ abstract class Cache<T> {
 
 
 //Using collection literals
+//List, set and map literals can be parameterized
