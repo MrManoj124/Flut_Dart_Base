@@ -41,3 +41,7 @@ var pages = <String, String>{
 
 //Using parameterized types with constructors
 var nameSet = Set<String>.of(names);
+
+
+//The following code creates a SplayTreeMap that has integer keys and values of type View: 
+var views = SplayTreeMap<int, View>();
