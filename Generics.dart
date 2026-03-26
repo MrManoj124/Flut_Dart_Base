@@ -30,3 +30,4 @@ abstract class Cache<T> {
 
 //Using collection literals
 //List, set and map literals can be parameterized
+var names = <String>['Servar', 'Kathy', 'Ellam','server'];
