@@ -12,3 +12,7 @@ abstract class ObjectCache {
   void setByKey(String key, Object value);
 }
 
+
+abstract class StringCache{
+
+}
