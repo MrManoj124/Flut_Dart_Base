@@ -14,5 +14,6 @@ abstract class ObjectCache {
 
 
 abstract class StringCache{
+  String getByKey(String key);
 
 }
