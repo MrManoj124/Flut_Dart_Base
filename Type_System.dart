@@ -7,4 +7,13 @@ void main(){
   list.add('2');
   printInts(list); //Runtime error
   printStrings(list); //Runtime error
+
+}
+
+//print the type of list
+void main1(){
+  final list=[];
+  list.add(1);
+  list.add('2');
+  print(list.runtimeType); //List<dynamic>
 }
