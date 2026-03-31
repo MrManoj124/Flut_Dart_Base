@@ -23,3 +23,6 @@ typedef Compare2<T> = int function(T a, T b);
 Compare2<T> makeCompare2<T> int Function(T a, T b){
   return (T a, T b) => 0;  //Dummy implementation
 }
+
+//Using parameterized types with functions
+var compareInts = makeCompare2<int>((a, b) => a - b);
