@@ -1,4 +1,4 @@
-void printInts(List<int> a) => print(a);
+/*void printInts(List<int> a) => print(a);
 void printStrings(List<String> a) => print(a);
 
 void main(){
@@ -16,4 +16,16 @@ void main1(){
   list.add(1);
   list.add('2');
   print(list.runtimeType); //List<dynamic>
+}
+*/
+
+
+//static analysis and runs with no errors or warnings
+void printInts(List<int> a) => print(a);
+
+void main(){
+  final list = <int>[];
+  list.add(1);
+  list.add(2);
+  printInts(list); //No runtime error
 }
