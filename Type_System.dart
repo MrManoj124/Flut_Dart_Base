@@ -6,5 +6,5 @@ void main(){
   list.add(1);
   list.add('2');
   printInts(list); //Runtime error
-  
+  printStrings(list); //Runtime error
 }
