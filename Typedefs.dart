@@ -17,3 +17,9 @@ void main(){
 
 //Generic function types
 typedef Compare2<T> = int function(T a, T b);
+
+
+//create a function that takes a Compare2 and returns a Campare2
+Compare2<T> makeCompare2<T> int Function(T a, T b){
+  return (T a, T b) => 0;  //Dummy implementation
+}
