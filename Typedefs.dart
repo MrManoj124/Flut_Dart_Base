@@ -14,3 +14,6 @@ int sort(int a, int b) => a - b;
 void main(){
   assert(sort is Compare<int>); //True;
 }
+
+//Generic function types
+typedef Compare2<T> = int function(T a, T b);
