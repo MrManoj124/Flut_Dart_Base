@@ -46,3 +46,12 @@ class Animal {
   }
   Animal get parent => ...
 }
+
+class HoneyBadger extends Animal {
+  @override
+  void chase(Animal a){
+    ...
+  }
+  @override
+  Root get parent => ...
+}
