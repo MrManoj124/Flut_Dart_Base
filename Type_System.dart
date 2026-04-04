@@ -38,3 +38,11 @@ void main1(){
   list.add(2);
   printInts(list); //No runtime error
 }
+
+//Use sound return types when overriding method
+class Animal {
+  void chase(Animal a) {
+    ...
+  }
+  Animal get parent => ...
+}
