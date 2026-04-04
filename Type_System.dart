@@ -55,3 +55,11 @@ class HoneyBadger extends Animal {
   @override
   Root get parent => ...
 }
+
+//Use sound parameter types when overriding methods
+class Animal {
+  void chase(Animal a) {
+     ...
+  }
+  Animal get parent => ...
+}
