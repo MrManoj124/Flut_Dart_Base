@@ -29,3 +29,12 @@ void main(){
   list.add(2);
   printInts(list); //No runtime error
 }
+
+
+//print the type of list
+void main1(){
+  final list = <int>[];
+  list.add(1);
+  list.add(2);
+  printInts(list); //No runtime error
+}
