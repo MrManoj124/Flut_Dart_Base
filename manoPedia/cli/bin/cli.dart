@@ -15,3 +15,7 @@ void main(List<String> arguments) {
     print("Unknown command : ${arguments.first}");
   }
 }
+
+void printUsage(){
+  print("The following commands are valid : 'help', 'version', 'search<Article-Title>'");
+}
