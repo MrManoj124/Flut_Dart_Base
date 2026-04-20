@@ -171,3 +171,9 @@ class vector{
     return vector( x + v.x, y + v.y );
   }
 }
+
+
+//Example for addition operator overloading
+var v1 = vector(x , y);
+var v2 = vector(x , y);
+var
