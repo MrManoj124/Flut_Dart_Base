@@ -40,16 +40,16 @@ void main1(){
 }
 
 //Use sound return types when overriding method
-class Animal {
-  void chase(Animal a) {
+class animal {
+  void chase(animal a) {
     ...
   }
-  Animal get parent => ...
+  animal get parent => ...
 }
 
-class HoneyBadger extends Animal {
+class honeyBadger extends animal {
   @override
-  void chase(Animal a){
+  void chase(animal a){
     ...
   }
   @override
@@ -57,12 +57,15 @@ class HoneyBadger extends Animal {
 }
 
 //Use sound parameter types when overriding methods
-class Animal {
-  void chase(Animal a) {
+class animal {
+  void chase(animal a) {
      ...
   }
-  Animal get parent => ...
+  animal get parent => ...
 }
 
 
-
+//Use sound parameter types when overriding methods
+class honeyBadger extends animal{
+  @
+}
