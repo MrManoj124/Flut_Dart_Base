@@ -69,7 +69,7 @@ class animal {
 class honeyBadger extends animal{
   @override{
     void chase(honeyBadger a){
-      
+      honeyBadger b = a; // No runtime error
     }
   }
 }
