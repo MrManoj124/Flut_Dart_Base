@@ -67,5 +67,9 @@ class animal {
 
 //Use sound parameter types when overriding methods
 class honeyBadger extends animal{
-  @
+  @override{
+    void chase(honeyBadger a){
+      
+    }
+  }
 }
