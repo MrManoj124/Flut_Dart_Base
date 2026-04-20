@@ -1,5 +1,7 @@
 //Operator precedence example
 // Parentheses improve readability.
+import 'dart:async';
+
 if ((n % i == 0) && (d % i == 0)) {
   // ...
 }
@@ -177,3 +179,4 @@ class vector{
 var v1 = vector(x , y);
 var v2 = vector(x , y);
 var v3 = v1 + v2;
+PrintHandler.print("v3 : (${v3.x}, ${v3.y})"); 
