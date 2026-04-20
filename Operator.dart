@@ -163,5 +163,6 @@ print(set2);
 
 //Addition oprator overloading
 class vector{
-  
+  final int x;
+  final int y;
 }
