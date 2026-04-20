@@ -168,6 +168,6 @@ class vector{
   vector(this.x, this.y);
   vector operator + (vector v)
   {
-    return 
+    return vector( x + v.x, y + v.y );
   }
 }
