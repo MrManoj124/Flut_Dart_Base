@@ -176,4 +176,4 @@ class vector{
 //Example for addition operator overloading
 var v1 = vector(x , y);
 var v2 = vector(x , y);
-var
+var v3 = v1 + v2;
