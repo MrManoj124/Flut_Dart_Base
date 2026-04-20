@@ -11,4 +11,7 @@ void main(List<String> arguments) {
   else if(arguments.first == 'version'){
     print("ManoPedia CLI version : $version");
   }
+  else{
+    print("Unknown command : ${arguments.first}");
+  }
 }
