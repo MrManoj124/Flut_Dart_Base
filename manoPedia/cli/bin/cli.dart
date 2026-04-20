@@ -19,3 +19,6 @@ void main(List<String> arguments) {
 void printUsage(){
   print("The following commands are valid : 'help', 'version', 'search<Article-Title>'");
 }
+
+
+//Implement the help command and refine main: 
