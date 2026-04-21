@@ -180,3 +180,10 @@ var v1 = vector(x , y);
 var v2 = vector(x , y);
 var v3 = v1 + v2;
 PrintHandler.print("v3 : (${v3.x}, ${v3.y})"); 
+
+
+//Equality and relational operators
+//01. Operator (==) for Equal 
+var n = 5;
+var m = 6;
+ 
