@@ -196,6 +196,10 @@ print (computerMemory != cloudStorage) ;
 
 
 
+//Prefix and Postfix increment and decrement operator 
+int a;
+int b;
+
 
 
 
