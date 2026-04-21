@@ -184,6 +184,9 @@ PrintHandler.print("v3 : (${v3.x}, ${v3.y})");
 
 //Equality and relational operators
 //01. Operator (==) for Equal 
-var n = 5;
-var m = 6;
- 
+// var n = 5;
+// var m = 5;
+// print  (n == m);
+int equals (int m, int n) => m == b;
+
+
