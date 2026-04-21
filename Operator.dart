@@ -210,5 +210,15 @@ a = 0;
 b = a++; // Increment a after b gets its value.
 assert(a != b); // 1 != 0
 
+//--var 	var   =   var - 1 (expression value is var - 1 )
+a = 0;
+b = --a; // Decrement a before b gets its value.
+assert(a == b); // -1 == -1
+
+
+
+
+
+
 
 
