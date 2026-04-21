@@ -200,6 +200,11 @@ print (computerMemory != cloudStorage) ;
 int a;
 int b;
 
+//++var 	var   =   var + 1 (expression value is var + 1 )
+a = 0;
+b = ++a; // Increment a before b gets its value.
+assert(a == b); // 1 == 1
+
 
 
 
