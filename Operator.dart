@@ -187,6 +187,15 @@ PrintHandler.print("v3 : (${v3.x}, ${v3.y})");
 // var n = 5;
 // var m = 5;
 // print  (n == m);
-int equals (int m, int n) => m == b;
+int equals (int m, int n) => m == n;
+
+//02. Operator (!=) for Not Equal
+var computerMemory = "Physical Access";
+var cloudStorage = "Virtual Access";
+
+
+
+
+
 
 
