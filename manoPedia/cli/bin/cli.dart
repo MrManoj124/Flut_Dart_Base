@@ -5,7 +5,7 @@ const version = '0.0.1';
 void main(List<String> arguments) {
   //print('Hello Mr.Manoj: ${cli.calculate()}!');
   //print('Hello Guys Welcome to Dart...!: ${cli.calculate()}!');
-  if(arguments.isEmpty){
+  /* if(arguments.isEmpty){
     print("Print Hello Mr.Manoj");
   }
   else if(arguments.first == 'version'){
@@ -18,7 +18,13 @@ void main(List<String> arguments) {
 
 void printUsage(){
   print("The following commands are valid : 'help', 'version', 'search<Article-Title>'");
+} */
+
+
+// Define the searchWikipedia function:
+void searchWickipedia(List<String>? arguments){
+ 
 }
 
 
-//Implement the help command and refine main: 
+}

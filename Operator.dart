@@ -222,8 +222,6 @@ assert(a != b); // -1 != 0
 
 
 
-//Task 2: Implement the search command
-//Integrate the search command into main function
 
 
 
