@@ -16,9 +16,7 @@ const version = '0.0.1';
   }
 }
 
-void printUsage(){
-  print("The following commands are valid : 'help', 'version', 'search<Article-Title>'");
-} */
+*/
 
 
 // Define the searchWikipedia function:
@@ -34,6 +32,13 @@ void searchWickipedia(List<String>? arguments){
 
 //Call the searchWikipedia function from the main function
 //  modify the search command block in main to call searchWikipedia
+
+
+
+
+
 void main(List<String> arguments){
-  
+  if(arguments.isEmpty || arguments.first == 'help'){
+    printUsage();
+  }
 }
