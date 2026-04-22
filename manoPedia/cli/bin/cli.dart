@@ -34,8 +34,10 @@ void searchWickipedia(List<String>? arguments){
 //  modify the search command block in main to call searchWikipedia
 
 
-
-
+// Add a printUsage function to display usage instructions
+void printUsage(){
+  print("The following commands are valid : 'help', 'version', 'search<Article-Title>'");
+} 
 
 void main(List<String> arguments){
   if(arguments.isEmpty || arguments.first == 'help'){
@@ -44,5 +46,4 @@ void main(List<String> arguments){
   else if(arguments.first == 'version'){
     print('manoPedia CLI version : $version');
   }
-  else{}
 }
