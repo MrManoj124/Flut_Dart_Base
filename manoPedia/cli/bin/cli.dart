@@ -26,5 +26,7 @@ void searchWickipedia(List<String>? arguments){
   print('searchWikipedia received arguments : $arguments');
 }
 
+// Highlights from the preceding code:
+// List<String>? arguments means that the arguments list itself can be null.
 
 }
