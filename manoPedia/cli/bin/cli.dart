@@ -34,3 +34,6 @@ void searchWickipedia(List<String>? arguments){
 
 //Call the searchWikipedia function from the main function
 //  modify the search command block in main to call searchWikipedia
+void main(List<String> arguments){
+  
+}
