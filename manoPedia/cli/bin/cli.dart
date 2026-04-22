@@ -46,4 +46,7 @@ void main(List<String> arguments){
   else if(arguments.first == 'version'){
     print('manoPedia CLI version : $version');
   }
+  else{
+    printUsage(); // Catch-all for unknown commands
+  }
 }
