@@ -23,7 +23,7 @@ void printUsage(){
 
 // Define the searchWikipedia function:
 void searchWickipedia(List<String>? arguments){
- 
+  print('searchWikipedia received arguments : $arguments');
 }
 
 
