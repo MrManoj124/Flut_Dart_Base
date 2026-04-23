@@ -225,8 +225,17 @@ assert(a != b); // -1 != 0
 final value = 0x22;
 final bitmask = 0x0f;
 
+// Simple Logical Operators
 assert((value & bitmask) == 0x02); // AND
 assert((value & ~bitmask) == 0x20); // AND NOT
 assert((value | bitmask) == 0x2f); // OR
 assert((value ^ bitmask) == 0x2d); // XOR
 
+
+// Shift right and shift left operators
+assert((value << 4) == 0x220); // Shift left
+assert((value >> 4) == 0x02); // Shift right
+
+
+//// Shift right example that results in different behavior on web
+// because the operand value changes when masked to 32 bits:
