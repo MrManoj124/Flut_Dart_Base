@@ -244,3 +244,8 @@ assert((-value >> 4) == -0x03);
 // Add a code for Unsigned shift right
 assert((value >>> 4) == 0x02); // Unsigned shift right
 assert((-value >>> 4) > 0); // Unsigned shift right
+
+
+// === Conditional expressions ===
+// Syntax for conditional expressions
+condition ? expr1 : expr2
