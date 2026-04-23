@@ -256,6 +256,9 @@ var SLTB = isPublic ? 'public' : 'private';
 // Example for conditional expression with null safety
 String getPlayerName(String? name) => name ?? 'Unknown Player';
 print(getPlayerName('Manorooban')); // Output: Manorooban
+print(getPlayerName(null)); // Output: Unknown Player
 
 
-
+// Example for conditional expression with null values
+String CricketFormats (String? format) => format ?? 'Unknown Format';
+print(CricketFormats('T20')); // Output : T20
