@@ -222,7 +222,6 @@ assert(a != b); // -1 != 0
 
 
 // Bitwise and shift Operators
-
-
-
+final value = 0x22;
+final bitmask = 0x0f;
 
