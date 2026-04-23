@@ -249,3 +249,6 @@ assert((-value >>> 4) > 0); // Unsigned shift right
 // === Conditional expressions ===
 // Syntax for conditional expressions
 condition ? expr1 : expr2
+
+// Add a simple example for conditional expression 
+var SLTB = isPublic ? 'public' : 'private';
