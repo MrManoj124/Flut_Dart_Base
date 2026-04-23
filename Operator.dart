@@ -262,3 +262,4 @@ print(getPlayerName(null)); // Output: Unknown Player
 // Example for conditional expression with null values
 String CricketFormats (String? format) => format ?? 'Unknown Format';
 print(CricketFormats('T20')); // Output : T20
+print(CricketFormats(null)); // Output : Unknown Format
