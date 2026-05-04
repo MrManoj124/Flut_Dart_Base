@@ -95,3 +95,7 @@ void main(List<String> arguments) {
   if(arguments.isEmpty || argumets.first == 'help'){
     printUsage();
   }
+  else if(arguments.first == 'version'){
+    print('manoPedia CLI version $version');
+  }
+  else if()
