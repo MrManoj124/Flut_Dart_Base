@@ -92,3 +92,6 @@ void searchWikipedia(List<String>? arguments) { // Add this new function and add
 // modify the search command block in main to call searchWikipedia and pass it any arguments that come after the search command itself
 
 void main(List<String> arguments) {
+  if(arguments.isEmpty || argumets.first == 'help'){
+    printUsage();
+  }
