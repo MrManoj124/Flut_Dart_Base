@@ -59,4 +59,7 @@ void main(List<String> arguments){
   {
     printUsage();
   }
+  else if(arguments.first == 'version'){
+    print("manoPedia CLI version $version");
+  }
 }
