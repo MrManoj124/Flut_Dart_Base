@@ -50,3 +50,7 @@ void main(List<String> arguments){
     printUsage(); // Catch-all for unknown commands
   }
 }
+
+
+// Integrate the search command into main
+// include an else if branch that handles the search command
