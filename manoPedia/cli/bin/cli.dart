@@ -70,3 +70,8 @@ void main(List<String> arguments){
     printUsage();
   }
 }
+
+
+// Test the new command
+// Run your application with the search command:
+// dart bin/cli.dart search
