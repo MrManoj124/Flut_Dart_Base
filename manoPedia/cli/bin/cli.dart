@@ -66,5 +66,7 @@ void main(List<String> arguments){
     // Add this new block;
     print('Search command recognized!');
   }
-  
+  else{
+    printUsage();
+  }
 }
