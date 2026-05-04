@@ -78,3 +78,6 @@ void main(List<String> arguments){
 
 
 //Define the searchWikipedia function
+void searchWikipedia(List<String>? arguments) { // Add this new function and add ? to arguments type
+  print('searchWikipedia received arguments: $arguments');
+}
