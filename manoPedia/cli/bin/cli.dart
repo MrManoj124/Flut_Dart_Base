@@ -54,3 +54,6 @@ void main(List<String> arguments){
 
 // Integrate the search command into main
 // include an else if branch that handles the search command
+void main(List<String> arguments){
+  if(arguments.isEmpty || arguments.first == 'help')
+}
