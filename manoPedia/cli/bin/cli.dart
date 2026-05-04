@@ -75,3 +75,6 @@ void main(List<String> arguments){
 // Test the new command
 // Run your application with the search command:
 // dart bin/cli.dart search
+
+
+//Define the searchWikipedia function
