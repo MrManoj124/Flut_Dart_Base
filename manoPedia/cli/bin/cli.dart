@@ -102,3 +102,7 @@ void main(List<String> arguments) {
     final inputArgs = arguments.length > 1 ? arguments.sublist(1) : null;
     searchWikipedia(inputArgs);
   }
+  else{
+    printUsage();
+  }
+}
