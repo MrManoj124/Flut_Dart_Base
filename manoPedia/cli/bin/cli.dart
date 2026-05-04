@@ -56,4 +56,7 @@ void main(List<String> arguments){
 // include an else if branch that handles the search command
 void main(List<String> arguments){
   if(arguments.isEmpty || arguments.first == 'help')
+  {
+    printUsage();
+  }
 }
