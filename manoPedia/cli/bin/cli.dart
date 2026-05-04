@@ -62,4 +62,9 @@ void main(List<String> arguments){
   else if(arguments.first == 'version'){
     print("manoPedia CLI version $version");
   }
+  else if(arguments.first == 'search'){
+    // Add this new block;
+    print('Search command recognized!');
+  }
+  
 }
