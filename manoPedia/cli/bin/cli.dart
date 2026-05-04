@@ -86,3 +86,6 @@ void searchWikipedia(List<String>? arguments) { // Add this new function and add
 // 01. state the main function
 // 02. state the searchWikipedia function
 // 03. state the printUsage function
+
+
+// Call the searchWikipedia function from the main function
