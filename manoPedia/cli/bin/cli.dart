@@ -98,4 +98,7 @@ void main(List<String> arguments) {
   else if(arguments.first == 'version'){
     print('manoPedia CLI version $version');
   }
-  else if()
+  else if(arguments.first == 'search'){
+    final inputArgs = arguments.length > 1 ? arguments.sublist(1) : null;
+    searchWikipedia(inputArgs);
+  }
