@@ -19,3 +19,4 @@ for (var i = 0; i < 3; i++) {
 
 for (final c in callbacks) {
   c(); // Output: 0 1 2
+}
