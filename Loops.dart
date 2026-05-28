@@ -68,7 +68,7 @@ for (int i = 0; i < candidates.length; i++) {
 
 
 // labels in for loop Using break
-outerLoop:
+// outerLoop:
 for (var i = 1; i <= 3; i++) {
   for (var j = 1; j <= 3; j++) {
     print('i = $i, j = $j');
@@ -78,3 +78,15 @@ for (var i = 1; i <= 3; i++) {
   }
 }
 print('outerLoop exited');
+
+
+// Labels in for loop using continue
+// outerLoop:
+for (var i = 1; i <= 3; i++) {
+  for (var j = 1; j <= 3; j++) {
+    if (i == 2 && j == 2) {
+      continue outerLoop;
+    }
+    print('i = $i, j = $j');
+  }
+}
