@@ -56,3 +56,12 @@ while(true){
   if(shutDownRequested()) break;
   processInComingRequests();
 }
+
+// Contiue method 
+for (int i = 0; i < candidates.length; i++) {
+  var candidate = candidates[i];
+  if (candidate.yearsExperience < 5) {
+    continue;
+  }
+  candidate.interview();
+}
