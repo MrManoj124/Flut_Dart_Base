@@ -43,3 +43,9 @@ collection.forEach(print); // 1 2 3
 while(!isDone()){
   doSomething();
 }
+
+
+// Do-While loop
+do{
+  printLine();
+}while (!atEndOfPage());
