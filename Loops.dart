@@ -37,3 +37,9 @@ for (final Candidate(:name, :yearsExperience) in candidates) {
 // Iterable classes also have a forEach() method as another option
 var collection = [1, 2, 3];
 collection.forEach(print); // 1 2 3
+
+
+// While and do-while
+while(!isDone()){
+  doSomething();
+}
