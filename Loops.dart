@@ -32,3 +32,8 @@ for (var candidate in candidates) {
 for (final Candidate(:name, :yearsExperience) in candidates) {
   print('$name has $yearsExperience of experience.');
 }
+
+
+// Iterable classes also have a forEach() method as another option
+var collection = [1, 2, 3];
+collection.forEach(print); // 1 2 3
