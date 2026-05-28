@@ -49,3 +49,10 @@ while(!isDone()){
 do{
   printLine();
 }while (!atEndOfPage());
+
+
+// Break and continue
+while(true){
+  if(shutDownRequested()) break;
+  processInComingRequests();
+}
