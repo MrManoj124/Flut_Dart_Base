@@ -25,3 +25,10 @@ for (final c in callbacks) {
 for (var candidate in candidates) {
   candidate.interview();
 }
+
+
+
+// To process the values obtained from the iterable, you can also use a pattern in a for-in loop: 
+for (final Candidate(:name, :yearsExperience) in candidates) {
+  print('$name has $yearsExperience of experience.');
+}
